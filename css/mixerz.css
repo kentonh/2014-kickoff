@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Tinos:700italic);
+
+body {
+    color: #333333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 1.42857;
+    background: #FAFAFA;
+}
+
+p {
+    margin: 0 0 20px;
+    font-family: Georgia,"Times New Roman",Times,Serif;
+}
+
+.row { padding-top: 20px; padding-bottom: 20px}
+
+.jumbotron {
+ padding-bottom: 91px;
+    padding-top: 25px;
+    background: url('../images/abstract.png') bottom center no-repeat ;
+    color: #ffffff;
+     margin-bottom: 0;
+}
+
+.jumbotron h1 {font-family: 'Tinos', serif; font-weight: 700; font-style: italic;
+
+text-shadow: 2px 1px 0 #cccccc;}
+
+
+.containertron {
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.footertron {background: url('../images/escheresque_ste.png'); color: #ffffff;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 2.14286;
+    padding: 80px;
+    border-top: 2px solid #AAAAAA;
+}
+
+.col-md-3 {
+border-top: 5px dotted #333333;
+padding-top: 40px;}
+
+.neato-dots {
+border-top: 5px dotted #dddddd;
+border-left: 1px dotted #DDDDDD;
+border-right: 1px dotted #DDDDDD;
+  -webkit-border-radius: 18px;
+          border-radius: 18px;
+  background-clip: padding-box;
+}
+
+.jumbo-back {background: url('../images/lghtmesh-dkr.png');} 
+
+/* Details Section */
+.thedeets { background: #fefefe;
+border-bottom: 1px dotted #CCCCCC;}
+h2 {font-family: 'Tinos', serif; font-weight: 700; font-style: italic;}
+
+/* About Section */
+.abouts {
+    border-top: 10px dotted #333333;
+    color: #dddddd;
+    border-top: 1px dotted #CCCCCC;
+    background: url('../images/abstract-bw.png') bottom center no-repeat #222222 ;
+}
+
+.abouts p {
+    margin: 0 0 15px;
+}
+.abouts h2 {color: #ffffff;}
+
+
+
+@media only screen and (min-width: 768px) {
+p {
+margin-bottom: 16px;
+font-size: 20px;
+line-height: 1.5em;
+}
+}
